@@ -35,3 +35,14 @@ int main()
 //  cout<<"Hello"<<endl;
 //  cout<<"world"<<endl;
 //  }
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin >> n;
+    for (int i = 1; i <= n; i++)
+    {
+        cout << "Hello World" << n << "st/nd/rd/th time" << endl;
+    }
+}
